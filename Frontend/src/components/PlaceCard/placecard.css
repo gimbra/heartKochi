@@ -1,0 +1,41 @@
+.placecard{
+    width: 300px;
+    /* display: flex; */
+    box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+    background-color: white;
+    height: 380px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 50px;
+    cursor: pointer;
+
+}
+
+.placecard img{
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.placecard h2{
+    margin-bottom: 20px;
+    margin-top: 3px;
+    color: black;
+    font-size: 30px;
+    display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  padding: 10px;
+}
+
+.placecard i{
+    font-size: 20px;
+    position: relative;
+    left: 265px;
+    top: 7px;
+    fill: bisque;
+   
+}

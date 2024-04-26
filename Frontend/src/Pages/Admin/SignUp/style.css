@@ -1,0 +1,20 @@
+.admin-signup {
+    margin: 100px;
+  }
+  
+  .admin-signup .admin-signup-form {
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 10px rgb(214, 214, 214);
+    padding: 30px;
+    width: 470px;
+  }
+  
+  .admin-signup .admin-signup-form h1 {
+    color: black;
+  }
+  
+  .admin-signup .admin-signup-form .btn-signup {
+    display: flex;
+    justify-content: end;
+  }
+  

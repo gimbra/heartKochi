@@ -1,0 +1,20 @@
+.user-signup {
+    margin: 100px;
+  }
+  
+  .user-signup .user-signup-form {
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 10px rgb(214, 214, 214);
+    padding: 30px;
+    width: 470px;
+  }
+  
+  .user-signup .user-signup-form h1 {
+    color: black;
+  }
+  
+  .user-signup .user-signup-form .btn-signup {
+    display: flex;
+    justify-content: end;
+  }
+  

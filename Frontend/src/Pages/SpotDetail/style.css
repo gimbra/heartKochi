@@ -1,0 +1,126 @@
+.mid{
+    display: flex;
+    gap: 20px;
+}
+
+.mid img{
+    height: 400px;
+    width: 400px;
+}
+
+.spot-detail{
+    margin: 100px;
+}
+
+.name{
+    margin: 0 0 30px;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    gap: 20px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+}
+
+.card p{
+    margin: 50px;
+    font-size: 20px;
+    color: green;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: beige;
+    display: flex;
+    padding: 40px;
+    padding-left: 25vh;
+    gap: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+  }
+  .fa-location-crosshairs {
+    cursor: pointer;
+    font-size: 40px;
+  }
+  
+  .spell {
+    color: red;
+  }
+  
+  .title {
+    border: 1px solid black;
+  }
+  .span2 {
+    background-color: black;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin-bottom: 5px;
+  }
+  
+  .social-links a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .quick-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 5px;
+    display: flex;
+  }
+  
+  .quick-links a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: white;
+  }

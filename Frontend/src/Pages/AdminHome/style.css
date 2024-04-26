@@ -1,0 +1,17 @@
+.admin-home{
+    display: flex;
+    margin: 100px auto;
+}
+
+.section{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.btns{
+    position: relative ;
+    top: 55px;
+    left: 85px;
+}

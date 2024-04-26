@@ -1,0 +1,15 @@
+.admin-signin .admin-signin-form {
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px 10px rgb(214, 214, 214);
+    padding: 30px;
+    width: 470px;
+  }
+  
+  .admin-signin .admin-signin-form h1 {
+    color: black;
+  }
+  
+  .admin-signin .admin-signin-form .btn-signin {
+    display: flex;
+    justify-content: end;
+  }

@@ -1,0 +1,20 @@
+.admin-addspot {
+    margin: 40px;
+  }
+  
+  .admin-addspot .addspot-form {
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 10px rgb(214, 214, 214);
+    padding: 30px;
+    width: 470px;
+  }
+  
+  .admin-addspot .addspot-form h1 {
+    color: black;
+  }
+  
+  .admin-addspot .addspot-form .btn-add {
+    display: flex;
+    justify-content: end;
+  }
+  

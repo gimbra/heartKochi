@@ -1,0 +1,32 @@
+.reviewcard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+    border-radius: 10px;
+    margin: 100px;
+
+
+}
+
+.reviewcard h2{
+    margin-bottom: 20px;
+    margin-top: 3px;
+    color: black;
+    font-size: 18px;
+    display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  padding: 10px;
+}
+
+.reviewcard .star{
+    position: absolute;
+    left: 67vh;
+    margin-top: 5px;
+}
+
+
+

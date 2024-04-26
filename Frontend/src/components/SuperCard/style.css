@@ -1,0 +1,60 @@
+.supercard{
+    width: 300px;
+    /* display: flex; */
+    box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+    background-color: white;
+    height: 430px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 0;
+    cursor: pointer;
+    border: none;
+
+}
+
+.supercard img{
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+    /* padding: 5px 20px; */
+    border-radius: 30px;
+}
+
+.supercard h2{
+    /* margin-bottom: 20px; */
+    margin-top: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  padding: 10px;
+}
+
+.supercard i{
+    font-size: 20px;
+    position: relative;
+    left: 265px;
+    top: 7px;
+    fill: bisque;
+   
+}
+
+.supercard p{
+    /* margin-bottom: 20px; */
+    /* margin: 0; */
+    color: black;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    /* overflow: hidden;  */
+    padding: 10px;
+    font-size: 12px;
+    /* margin-top: 10px; */
+}
+
+.supercard .star{
+    margin: 10px;
+}
