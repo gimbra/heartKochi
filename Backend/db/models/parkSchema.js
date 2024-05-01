@@ -11,7 +11,7 @@ const parkSchema = Schema(
     },
     ratings: [{ type: Number }],
     reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }],
-    spots: [{ type: Schema.Types.ObjectId, ref: 'Spots' }],
+    place: { type: Schema.Types.ObjectId, ref: 'Place' },
   },
   { timestamps: true }
 );
